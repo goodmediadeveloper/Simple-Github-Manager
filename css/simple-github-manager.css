@@ -1,0 +1,7 @@
+.simpleGithubManager__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw 0;
+  border-bottom: .05vw solid gray;
+}

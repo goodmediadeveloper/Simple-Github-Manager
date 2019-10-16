@@ -1,0 +1,15 @@
+simple_github_manager.example:
+  path: '/simple-github-manager'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\simple_github_manager\Controller\SimpleGithubManagerController::build'
+  requirements:
+    _permission: 'access content'
+
+simple_github_manager.form:
+  path: '/simple-github-manager/form'
+  defaults:
+    _title: 'Simple github manager'
+    _form: 'Drupal\simple_github_manager\Form\SimpleGithubManagerForm'
+  requirements:
+    _permission: 'access content'
