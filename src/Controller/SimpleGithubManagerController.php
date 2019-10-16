@@ -18,8 +18,8 @@ class SimpleGithubManagerController extends ControllerBase {
 
     $ch = curl_init();
 
-    $user_name = 'goodmediadeveloper';
-    $token = '68190e4332a5a60285734888c5a5c86bfd1af3da';
+    $user_name = 'your____user___name';
+    $token = 'your___access___tocken';
 
     curl_setopt($ch, CURLOPT_URL, 'https://api.github.com/users/goodmediadeveloper/repos');
     curl_setopt($ch, CURLOPT_USERAGENT, 'cURL/php');
